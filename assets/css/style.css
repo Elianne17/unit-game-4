@@ -1,0 +1,97 @@
+body {
+    background-image: url("https://s1.favim.com/flow/150427/cool-diamonds-wallpaper-Favim.com-2686400.jpg");
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+   
+    font-family: 'Impact', cursive;
+}
+
+#container {
+border: solid 20px;
+margin-left: 10%;
+margin-right: 10%;
+background-color: grey;
+}
+
+#instruction-box {
+   
+    margin-left:5%;
+    margin-right:5%;
+
+}
+
+.box {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 5%;
+    text-align: center;
+}
+.scores {
+    padding: 20px;
+    margin:10px;
+    font-family: 'Impact', cursive;
+    background-color: #ffe1e6;
+    border: solid 5px rgb(146, 72, 142);
+}
+
+span{
+    border: solid 4px black;
+    background-color:lightgoldenrodyellow;
+    padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.box1 {
+ 
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Impact', cursive;
+}
+
+.gembox {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/*Jewels*/
+
+#one {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right:2%;
+}
+
+#two {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right:2%;
+}
+
+#three{
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right:2%;
+}
+
+#four {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right:2%;
+}

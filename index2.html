@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JEWEL GAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="./assets/images/yellowgem.jpg" type="image">
+</head>
+
+<body>
+ 
+    <div id="container">
+
+       
+        <h1>CRYSTALS COLLECTOR GAME!</h1>
+       
+        <div id="instruction-box">
+            <h3>Instructions:</h3>
+
+            <p>
+                <i class="tiny material-icons">chevron_right</i>You will be given a random target number at the start of the game. </p>
+            <p>
+                <i class="tiny material-icons">chevron_right</i>There are 4 crystals below. By clicking on each you will add a specific amount of points
+                to your total score.</p>
+            <p>
+                <i class="tiny material-icons">chevron_right</i>You can win the game by matching your number with the target number.</p>
+            <p>
+                <i class="tiny material-icons">chevron_right</i>Value of each crystal is hidden until you click on it.</p>
+            <p>
+                <i class="tiny material-icons">chevron_right</i>The game restarts if you win or lose the round, and restarts with a new random target number.</p>
+        </div>
+
+
+
+     
+        <div class="box">
+
+            <h3>
+                <div class="scores">
+                    Target Number:
+                    <span id="targetnum"></span>
+                </div>
+                <div class="scores">
+                    Your Number:
+                    <span id="yournum"></span>
+                </div>
+            </h3>
+
+            
+        </div>
+
+        
+        <div class="gembox">
+
+            <img id="red" src="assets/images/redgem.jpg">
+            <img id="blue" src="assets/images/bluegem.jpg">
+            <img id="green" src="assets/images/greengem.jpg">
+            <img id="diamond" src="assets/images/diamondgem.jpg">
+        </div>
+
+    
+        <div class="box1">
+            <h3>Wins:
+                <span id="wins"></span>
+            </h3>
+        </div>
+        <div class="box1">
+            <h3>Losses:
+                <span id="loss"></span>
+            </h3>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
+
